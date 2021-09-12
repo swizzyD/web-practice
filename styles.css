@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600&family=Barlow&display=swap');
 :root {
-    --bg-color: rgba(0,0,0,0.9);
+    --bg-color: rgb(30, 30, 30);
 }
 
 
@@ -80,7 +80,6 @@ a {
 }
 .container {
     max-width: 1200px;
-    min-height: 800px;
     margin: 0 auto;
     overflow: auto;
     padding: 0 40px;
@@ -91,14 +90,29 @@ a {
     justify-content: center;
     align-items: center;
 }
+.section-head .section-head-text h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.section-head .section-head-text p {
+    color: white;
+}
+
+.section-head {
+    background-color: var(--bg-color);
+}
 
 /*------------------------------ABOUT--------------------------------------*/
-
-
+.about {
+    background-color: var(--bg-color);
+    height: 400px;
+}
 .about-image {
-    float: left;
-    max-width: 75%;
+    max-width: 50%;
     margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
 }
 
 /*-------------------FOOTER----------------------------------------*/
@@ -153,18 +167,12 @@ a {
 
 
 /*-------------DESIGNS-------------------*/
-.designs-showcase .section-head h1 {
-    font-size: 40px;
-    color: white;
-}
-
-.designs-showcase .section-head p {
-    color: white;
-}
-
-.designs-showcase {
+.section-head.designs-section {
     background-color: var(--bg-color);
     height: 300px;
+}
+.section-head .container {
+    min-height: 0;
 }
 
 .designs-cell {
@@ -173,6 +181,7 @@ a {
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
+    height: 100%;
 }
 
 .designs-cell img {
@@ -181,13 +190,13 @@ a {
 
 .designs-cell .grid {
     justify-items: center;
+    
 }
 
-
-.designs-showcase .container {
-    min-height: 0;
-}
-
-.designs-cell a:hover {
+.designs-cell a {
     border-bottom: 1px black solid;
+}
+.designs-cell a:hover {
+    color: rgba(0,0,0,0.3);
+    border-bottom: 1px rgba(0,0,0,0.3) solid;
 }
