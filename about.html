@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="description" content="Website of Samuel Que">
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Samuel Que | About</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -12,41 +15,48 @@
 <body>
     <div class="content-wrap">
         <header class="main-header">
-            <nav class="nav main-nav">
+            <nav class="nav flex">
                 <ul>
                     <li><a href="index.html">GALLERY</a></li>
+                    <li><a href="designs.html">DESIGNS</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                 </ul>
             </nav>
             <h1 class="page-title">SAMUEL QUE</h1>
         </header>
-        <section class="about-content-section about-container">
-            <div class="about">
+        <section class="container">
+            <div class="flex">
                 <img class="about-image" src="images/profile_photo.JPG">
-                <p> My name is Samuel Que and I am a photographer that primarily captures scenes of daily life in my home city of Auckland. I mainly shoot 35mm film with my Canon 300 but I also use my Canon 650D DSLR.
-                <p>
-                    I created this website to showcase my photgraphy and to learn HTML and CSS.
-                </p>
-                
-                <p> 
-                    Watch this webiste grow in functionality as I further develop my skills!
-                </p>
+                <div class="about-text">
+                    <p> My name is Samuel Que and I am a photographer that primarily captures scenes of daily life in my
+                        home city of Auckland. I mainly shoot 35mm film with my Canon 300 but I also use my Canon 650D
+                        DSLR.
+                    <p>
+                        I created this website to showcase my photgraphy and to learn HTML and CSS.
+                    </p>
+
+                    <p>
+                        Watch this webiste grow in functionality as I further develop my skills!
+                    </p>
+                </div>
             </div>
         </section>
     </div>
     <footer class="main-footer">
         <div class="container main-footer-container">
-            <span class="footer-text">Links</span>
-            <ul class="nav footer-nav">
+            <ul class="nav footer-nav flex">
                 <li>
                     <!-- TODO: make logo pngs for these and copy paste the footer into about.html-->
                     <a href="https://github.com/swizzyD" target="_blank">
-                        <img src="logos/github_logo.png">
+                        <!--<img src="icons/github_logo.png">-->
+                        <i class="fab fa-github fa-2x"></i>
+
                     </a>
                 </li>
                 <li>
                     <a href="https://www.instagram.com/sam.que/" target="_blank">
-                        <img src="logos/instagram_logo.png">
+                        <!--<img src="icons/instagram_logo.png">-->
+                        <i class="fab fa-instagram fa-2x"></i>
                     </a>
                 </li>
             </ul>

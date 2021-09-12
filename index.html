@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="Website of Samuel Que">
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Samuel Que</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -12,15 +13,16 @@
 <body>
     <div class="content-wrap">
         <header class="main-header">
-            <nav class="nav main-nav">
+            <nav class="nav flex">
                 <ul>
                     <li><a href="index.html">GALLERY</a></li>
+                    <li><a href="designs.html">DESIGNS</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                 </ul>
             </nav>
             <h1 class="page-title">SAMUEL QUE</h1>
         </header>
-        <section class="container gallery-section">
+        <section class="container">
             <div class="gallery-content">
                 <img class="gallery-image" src="images/compressed/abstract_night_lights (2).jpg">
 
@@ -59,17 +61,19 @@
     </div>
     <footer class="main-footer">
         <div class="container main-footer-container">
-            <span class="footer-text">Links</span>
-            <ul class="nav footer-nav">
+            <ul class="nav footer-nav flex">
                 <li>
                     <!-- TODO: make logo pngs for these and copy paste the footer into about.html-->
                     <a href="https://github.com/swizzyD" target="_blank">
-                        <img src="logos/github_logo.png">
+                      <!--<img src="icons/github_logo.png">-->  
+                      <i class="fab fa-github fa-2x"></i>
+                      
                     </a>
                 </li>
                 <li>
                     <a href="https://www.instagram.com/sam.que/" target="_blank">
-                        <img src="logos/instagram_logo.png">
+                        <!--<img src="icons/instagram_logo.png">-->
+                        <i class="fab fa-instagram fa-2x"></i>
                     </a>
                 </li>
             </ul>
