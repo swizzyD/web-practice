@@ -229,6 +229,7 @@ a {
 
     .gallery-image {
         min-width: 30%;
+        object-fit: cover;
     }
 
     .about-image {
