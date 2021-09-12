@@ -12,4 +12,8 @@ I created this website as a way to showcase my personal photography work, as wel
 * Footer bug fixed
 * TO-DO: Add "hamburger" menu just for the sake of learning it, tbh website doesn't need it.
 
+## 2021-09-13:
+* Fixed About section spelling and grammar
+* Fixed grid and image sizing for Design section and Gallery section for <500px
+
 Have a look at: https://swizzyd.github.io/web-practice/
