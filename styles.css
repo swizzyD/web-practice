@@ -151,7 +151,7 @@ a {
     max-width: 30%;
     min-width: 200px;
     padding: 5px;
-    object-fit: contain;
+    object-fit: scale-down;
 }
 
 .gallery-content {
