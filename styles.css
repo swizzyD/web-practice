@@ -253,3 +253,9 @@ a {
 
 
 }
+
+@media(-webkit-min-device-pixel-ratio: 2) {
+    .gallery-image {
+        max-height: 100px;
+    }
+}
